@@ -1,4 +1,4 @@
-<img width="1896" height="1008" alt="צילום מסך 2025-08-10 194458" src="https://github.com/user-attachments/assets/165fcf2b-c484-4b7f-851f-2ea7fa4ac93e" /># 🛒 Grocery Store E-Commerce Platform
+# 🛒 Grocery Store E-Commerce Platform
 
 A modern, responsive grocery store web application built with React, featuring a clean user interface and seamless shopping experience.
 
