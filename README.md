@@ -4,8 +4,8 @@ A modern, responsive grocery store web application built with React, featuring a
 
 ## 📸 Preview
 
-<img <img width="189" height="1008" alt="small-shop" src="https://github.com/user-attachments/assets/0e3befff-e9c8-4354-8263-d69b1f7ee976"/>
-/>
+<img width="189" height="1008" alt="small-shop" src="https://github.com/user-attachments/assets/0e3befff-e9c8-4354-8263-d69b1f7ee976"/>
+
 
 
 ## ✨ Features
