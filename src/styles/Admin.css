@@ -1,0 +1,116 @@
+/* ===== ADMIN PAGE STYLES ===== */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f7ef;
+    font-family: 'Segoe UI', sans-serif;
+    color: #2c3e50;
+    overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    padding: 12px 25px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* Container */
+.admin-container {
+    display: flex;
+    height: 100vh;
+    padding-top: 60px;
+    background: #f5f9fc;
+}
+
+/* Sidebar */
+.admin-sidebar {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 0 8px rgba(0,0,0,0.1);
+    border-right: 1px solid #eee;
+}
+
+/* Sidebar Buttons */
+.admin-sidebar button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    background: #3498db;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+}
+.admin-sidebar button:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+/* Main Content */
+.admin-content {
+    flex-grow: 1;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Container */
+.admin-form-container {
+    width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Form */
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.admin-form input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.admin-form input:focus {
+    border-color: #3498db;
+    box-shadow: 0px 0px 5px rgba(52,152,219,0.4);
+}
+
+/* Form Button */
+.admin-form button {
+    background: #2ecc71;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.admin-form button:hover {
+    background: #27ae60;
+    transform: scale(1.05);
+}

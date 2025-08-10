@@ -1,0 +1,62 @@
+/* ===== CART PAGE STYLES ===== */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #eafaf1;
+}
+
+.cart-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.cart-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.cart-list {
+    list-style: none;
+    padding: 0;
+    max-height: 55vh;
+    overflow-y: auto;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.remove-button {
+    background: #e74c3c;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.remove-button:hover {
+    background: #c0392b;
+}
+
+.checkout-button {
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+}
+.checkout-button:hover {
+    background: #2980b9;
+}

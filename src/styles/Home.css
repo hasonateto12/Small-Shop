@@ -1,0 +1,42 @@
+/* ===== HOME PAGE STYLES ===== */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-y: auto;
+}
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background: url("../assets/images/supermarket-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title */
+.shop-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-bottom: 5px solid #f1c40f;
+    margin-bottom: 25px;
+}
+
+/* Product Container */
+.product-scroll-container {
+    width: 90%;
+    max-width: 1200px;
+    height: 75vh;
+    overflow-y: auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
