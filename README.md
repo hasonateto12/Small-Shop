@@ -52,38 +52,11 @@ A modern, responsive grocery store web application built with React, featuring a
 3. **Start the development server**
    ```bash
    npm start
-   # or
-   yarn start
    ```
 
 4. **Open your browser**
    Navigate to `http://localhost:3000`
 
-## 🏗️ Project Structure
-
-```
-grocery-store/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   ├── ProductCard/
-│   │   ├── Cart/
-│   │   ├── Navigation/
-│   │   └── AdminPanel/
-│   ├── pages/
-│   │   ├── Store/
-│   │   ├── Cart/
-│   │   └── Admin/
-│   ├── hooks/
-│   ├── utils/
-│   ├── styles/
-│   ├── App.js
-│   └── index.js
-├── package.json
-└── README.md
-```
 
 ## 🎯 Usage
 
@@ -116,16 +89,9 @@ The application is fully responsive and works seamlessly across:
 - **Visual Feedback**: Smooth transitions and interactive elements
 - **Accessibility**: WCAG compliant design with proper contrast ratios
 
-## 🔧 Configuration
 
-### Environment Variables
-Create a `.env` file in the root directory:
 
-```env
-REACT_APP_API_URL=http://localhost:3001
-REACT_APP_PAYMENT_GATEWAY_KEY=your_payment_key
-REACT_APP_GOOGLE_ANALYTICS_ID=your_analytics_id
-```
+
 
 ### Customization
 - Update product data in `src/data/products.js`
@@ -144,24 +110,12 @@ REACT_APP_GOOGLE_ANALYTICS_ID=your_analytics_id
 Run the test suite:
 ```bash
 npm test
-# or
-yarn test
 ```
-
-Run tests with coverage:
-```bash
-npm run test:coverage
-# or
-yarn test:coverage
-```
-
 ## 🚀 Deployment
 
 ### Build for production:
 ```bash
 npm run build
-# or
-yarn build
 ```
 
 ### Deploy to platforms:
@@ -170,13 +124,7 @@ yarn build
 - **Heroku**: Use the included `Procfile`
 - **AWS S3**: Upload build folder to S3 bucket
 
-## 🤝 Contributing
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📝 License
 
@@ -186,16 +134,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
 
-## 🙏 Acknowledgments
-
-- Thanks to the React community for excellent documentation
-- UI inspiration from modern e-commerce platforms
-- Icons provided by [FontAwesome](https://fontawesome.com/)
-- Product images from [Unsplash](https://unsplash.com/)
 
 ## 📞 Support
 
-For support, email support@yourstore.com or join our Slack channel.
+For support, email hassunateto3@gmail.com 
 
 ## 🗺️ Roadmap
 
