@@ -40,7 +40,7 @@ A modern, responsive grocery store web application built with React, featuring a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/grocery-store.git
+   git clone https://github.com/hasonateto12/Small-Shop.git
    cd grocery-store
    ```
 
