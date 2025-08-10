@@ -21,7 +21,7 @@ const styles = {
         display: "flex",
         justifyContent: "space-between",
         padding: "10px 20px",
-        backgroundColor: "orange",
+        backgroundColor: "#3498db",
     },
     left: { fontSize: "20px", color: "white" },
     center: { flex: 1, textAlign: "center" },

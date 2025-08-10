@@ -75,7 +75,7 @@ html, body {
 /* Form Container */
 .admin-form-container {
     width: 500px;
-    background: white;
+    background: #3498db;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
@@ -101,7 +101,7 @@ html, body {
 
 /* Form Button */
 .admin-form button {
-    background: #2ecc71;
+    background: #3498db;
     color: white;
     padding: 12px;
     border-radius: 6px;
@@ -111,6 +111,6 @@ html, body {
     transition: 0.3s;
 }
 .admin-form button:hover {
-    background: #27ae60;
+    background: #000000;
     transform: scale(1.05);
 }

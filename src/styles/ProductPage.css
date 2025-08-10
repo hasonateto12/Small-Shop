@@ -39,12 +39,12 @@ html, body {
 
 .add-to-cart {
     padding: 10px;
-    background: #f39c12;
+    background: #3498db;
     color: white;
     font-weight: bold;
     border-radius: 5px;
     margin-top: 10px;
 }
 .add-to-cart:hover {
-    background: #e67e22;
+    background: #3498db;
 }
