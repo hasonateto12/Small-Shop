@@ -132,7 +132,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Teto Hassuna** - *Git Profile* - [YourGitHub](https://github.com/hasonateto12)
+- **Teto Hassuna** - *Git Profile* - [MyGitHub](https://github.com/hasonateto12)
 
 
 ## 📞 Support
