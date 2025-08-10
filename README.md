@@ -1,10 +1,11 @@
-# 🛒 Grocery Store E-Commerce Platform
+<img width="1917" height="913" alt="small-shop" src="https://github.com/user-attachments/assets/efc78b33-2ef8-4ba1-b724-b9e2473c6705" /># 🛒 Grocery Store E-Commerce Platform
 
 A modern, responsive grocery store web application built with React, featuring a clean user interface and seamless shopping experience.
 
 ## 📸 Preview
 
-<img src="https://github.com/user-attachments/assets/326fc7ca-9046-4241-b523-6cba64143b60" alt="Grocery Store Interface" width="189" height="1008" />
+<img <img width="1917" height="913" alt="image" src="https://github.com/user-attachments/assets/2d19c012-d2dc-4f08-92e6-5383c1d962a3" />
+
 
 
 ## ✨ Features
