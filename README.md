@@ -4,8 +4,8 @@ A modern, responsive grocery store web application built with React, featuring a
 
 ## 📸 Preview
 
-![Grocery Store Interface](<img width="189" height="1008" alt="צילום מסך 2025-08-10 194458" src="https://github.com/user-attachments/assets/326fc7ca-9046-4241-b523-6cba64143b60" />
-)
+<img src="https://github.com/user-attachments/assets/326fc7ca-9046-4241-b523-6cba64143b60" alt="Grocery Store Interface" width="189" height="1008" />
+
 
 ## ✨ Features
 
