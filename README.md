@@ -2,9 +2,9 @@
 
 A modern, responsive grocery store web application built with React, featuring a clean user interface and seamless shopping experience.
 
-## Preview
+![Preview screenshot](https://github.com/user-attachments/assets/2d19c012-d2dc-4f08-92e6-5383c1d962a3)
 
-![preview](https://github.com/user-attachments/assets/2d19c012-d2dc-4f08-92e6-5383c1d962a3)
+
 
 
 
