@@ -1,32 +1,38 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // للتنقل بين الصفحات بدون إعادة تحميل
 
 function Navbar() {
-    return (
-        <nav style={styles.navbar}>
-            <div style={styles.left}>
-                <Link to="/" style={styles.link}>Store</Link>
-            </div>
-            <div style={styles.center}>
-                <Link to="/cart" style={styles.link}>My Cart</Link>
-            </div>
-            <div style={styles.right}>
-                <Link to="/admin" style={styles.link}>Admin Page</Link>
-            </div>
-        </nav>
-    );
+  return (
+    <nav style={styles.navbar}>
+      <div style={styles.left}>
+        {/* رابط الصفحة الرئيسية */}
+        <Link to="/" style={styles.link}>חנות</Link>
+      </div>
+
+      <div style={styles.center}>
+        {/* رابط صفحة السلة */}
+        <Link to="/cart" style={styles.link}>הסל שלי</Link>
+      </div>
+
+      <div style={styles.right}>
+        {/* رابط صفحة الأدمن */}
+        <Link to="/admin" style={styles.link}>מנהל דף</Link>
+      </div>
+    </nav>
+  );
 }
 
+// ستايل سريع داخل الملف (Inline styles)
 const styles = {
-    navbar: {
-        display: "flex",
-        justifyContent: "space-between",
-        padding: "10px 20px",
-        backgroundColor: "#3498db",
-    },
-    left: { fontSize: "20px", color: "white" },
-    center: { flex: 1, textAlign: "center" },
-    right: { display: "flex", gap: "15px" },
-    link: { color: "black", textDecoration: "none", fontSize: "18px" }
+  navbar: {
+    display: "flex",                 // ترتيب العناصر بجانب بعض
+    justifyContent: "space-between", // توزيع يمين/وسط/يسار
+    padding: "10px 20px",
+    backgroundColor: "#3498db",
+  },
+  left: { fontSize: "20px", color: "white" },
+  center: { flex: 1, textAlign: "center" },
+  right: { display: "flex", gap: "15px" },
+  link: { color: "black", textDecoration: "none", fontSize: "18px" }
 };
 
-export default Navbar;
+export default Navbar; // تصدير الكومبوننت

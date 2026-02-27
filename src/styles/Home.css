@@ -9,7 +9,6 @@ html, body {
 .home-container {
     text-align: center;
     padding: 20px;
-    background: url("../assets/images/supermarket-bg.jpg") no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     display: flex;
